@@ -1,0 +1,28 @@
+.cd-top {
+
+  height: 60px;
+  width: 60px;
+
+  bottom: 40px;
+  right: 30px;
+  border-radius: 6px;
+
+  /* image replacement properties */
+
+  background: rgba(	39,159,133, 0.9) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  border: 1px solid #fdfdfd;
+
+}
+.cd-top:hover {
+  background-color: #d4f5e4  ;
+  opacity: 1;
+}
+/*-------------Media query--------------*/
+
+
+
+/* @media screen and (max-width: 930px) {
+  .cd-top {
+    display: none;
+  }
+} */

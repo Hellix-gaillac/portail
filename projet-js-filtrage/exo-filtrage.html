@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    body {
+      background-color: #ff4646;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Filtrage</h1>
+  <script type="text/javascript">
+    let liste = [4, 'a', 58, "45", {
+      "number": 61
+    }, 56, 2, "z"]
+    let listeFiltree = [];
+
+    for (index of liste) {
+      if (typeof index === 'number') { //TODO tester splice
+        listeFiltree.push(index);
+      }
+    }
+
+    console.log(liste);
+    console.log(listeFiltree.join());
+  </script>
+  <!--  for (index of liste) {
+
+     (isNaN(index) || typeof index === 'string') ? `` : listeFiltree.push(index);
+     } -->
+  <!-- for (index of liste) {
+    if (isNaN(index) || typeof index === 'string') { refaire
+    } else {
+      listeFiltree.push(index);
+    }
+  } -->
+
+
+</body>
+
+</html>

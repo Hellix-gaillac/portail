@@ -1,0 +1,18 @@
+[
+  {
+    "id":"cv",
+    "title": "CV",
+    "img": "",
+    "link": "cv",
+    "skill": ["HTML", "CSS", "JS", "FTP"],
+    "modif": ""
+  },
+  {
+    "id":"blog",
+    "title": "Blog",
+    "img": "",
+    "link": "",
+    "skill": ["HTML", "CSS"],
+    "modif": ""
+  }
+]

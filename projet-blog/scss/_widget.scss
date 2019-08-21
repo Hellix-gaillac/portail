@@ -1,0 +1,75 @@
+
+.widget{
+  width: 25%;
+  min-width: 230px;
+
+  .widget_style{
+    margin: 50px auto;
+    border-radius: 5px;
+    border: 2px solid $nav-theme-color;
+    background-color: $header-theme-bg-color;
+
+    h3{
+      width:90%;
+      margin:20px auto;
+      line-height: 40px;
+      font-size: $font-size-m;
+      color: $nav-theme-color;
+      border-radius: 5px;
+      @include border-ochre;
+    }
+    form{
+
+      width:90%;
+      margin:10px auto;
+      height: 30px;
+      input{
+        width:80%;
+        font-size: $font-size-s;
+        height: 34px;
+        color:$color-font-light;
+        background-color: $nav-theme-color;
+      }
+      button{
+        float: right;
+        height: 34px;
+        width: 10%;
+        min-width: 50px;
+        font-size: $font-size-m;
+        color:$color-font-light;
+        background-color: $nav-theme-color;
+        overflow: auto;
+        i{
+          font-size: $font-size-s;
+          color:$color-font-light;
+        }
+      }
+
+    }
+    .widget_une{
+      width: 80%;
+      margin:10px auto;
+      @include border-ochre;
+
+      h4{
+        line-height: 30px;
+        font-size: $font-size-s;
+        text-align: $text-center;
+        @include border-ochre;
+        color:$nav-theme-color;
+      }
+      img{
+        width: 150px;
+        margin: 20px;
+      }
+
+    }
+    .pub{
+      width: 100%;
+    }
+    iframe{
+      width:100%;
+
+    }
+  }
+}

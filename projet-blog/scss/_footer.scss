@@ -1,0 +1,154 @@
+.contactline{
+  width:100%;
+	padding:15px;
+  text-align: $text-center;
+  font-size: $font-size-m;
+  background-color: $header-theme-bg-color;
+  color: $color-font-color;
+  box-sizing: border-box;
+  i{
+    margin: 10px 20px;
+  }
+  a{
+    .far.fa-envelope{
+      &:hover{
+        color: $color-font-light;
+      }
+    }
+    .fab.fa-linkedin{
+      &:hover{
+        color: $color-font-light;
+      }
+    }
+    .fab.fa-github-square{
+      &:hover{
+        color: $color-font-light;
+      }
+    }
+  }
+
+
+}
+
+footer{
+  width: 100%;
+  padding: 30px;
+  background-color: $nav-theme-color;
+  box-sizing: border-box;
+    @include mixflex;
+    margin: auto;
+
+    .contactlink{
+      width:250px;
+    	margin:0 20px;
+      padding:20px 0;
+      font-size: $font-size-s;
+      font-weight: $font-weight-content;
+      color: $color-font-light;
+
+      table{
+        width:100%;
+        margin: 0 auto;
+        color: $color-font-light;
+
+        tr{
+          .celllink1 {
+            width:40px;
+            text-align: $text-center;
+            font-size: $font-size-s;
+          }
+          .celllink2{
+            text-align: $text-left;
+            font-size: $font-size-s;
+            a{
+              &:hover{
+                	text-decoration:underline;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .formcontact{
+      width:500px;
+      margin: 0 auto;
+      padding:0 30px;
+      form{
+        color:$color-font-color;
+
+        input{
+          width: 100%;
+        	margin: 18px 0;
+        	padding-left:25px;
+          border:3px solid $header-theme-bg-color;
+          border-radius: 3px;
+          box-sizing: border-box;
+          font-size: $font-size-s;
+          color: $color-font-color;
+          line-height: 30px;
+          &:focus{
+          	border:3px solid $header-theme-bg-color;
+          }
+        }
+
+        textarea{
+          width: 100%;
+        	height:100px;
+        	margin: 12px auto;
+        	padding:25px;
+        	border:3px solid $header-theme-bg-color;
+        	border-radius:3px;
+        	box-sizing: border-box;
+        	font-size:$font-size-s;
+          color: $color-font-color;
+        	resize: none;
+        }
+        button{
+        	width:100px;
+        	height:52px;
+        	padding-left:10px;
+        	margin:30px auto;
+        	text-align:$text-left;
+        	font-size:$font-size-xs;
+        	color:$color-font-light;
+        	border-radius:10px;
+        	border:2px solid #222831;
+        	background-color:$header-theme-bg-color;
+
+          i{
+          	float:right;
+          	padding-right:10px
+          }
+        }
+      }
+    }
+
+    .blocklink{
+      width: 250px;
+      padding:20px 0;
+      .link{
+        ul{
+          li{
+            margin:10px;
+            text-align: $text-left;
+            &:before {content: "- " ;
+              color: $color-font-light;
+            }
+            &:first-child{
+              margin-top:0;
+            }
+
+            a{
+            	font-size:$font-size-s;
+            	color:$color-font-light;
+              &:hover{
+              	color: $header-theme-bg-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+}

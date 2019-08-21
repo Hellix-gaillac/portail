@@ -1,0 +1,122 @@
+[{
+    "id": "commerce-php",
+    "title": "Commerce Php (En Cours)",
+    "img": "http://formation.xavier-loup.fr/assets/images/projet-php.jpg",
+    "link": "projet-commerce/index.php",
+    "skill": ["Php", "PDO - requêtes SQL"],
+    "modif": "2019-05-19"
+  },
+  {
+    "id": "sql",
+    "title": "Requêtes SQL",
+    "img": "",
+    "link": "",
+    "skill": ["Conception Bases de Données", "mySQL", "phpMyAdmin"],
+    "modif": "2019-05-10"
+  },
+  {
+    "id": "evaluation-JS",
+    "title": "Evaluation JS et API",
+    "img": "",
+    "link": "",
+    "skill": ["Vanilla JS", "Manipulation du DOM", "Appel JSON avec Fletch()", "API "],
+    "modif": "2019-04-19"
+  },
+  {
+    "id": "exercice-ajax-film",
+    "title": "JS - FETCH() - API",
+    "img": "http://formation.xavier-loup.fr/assets/images/capture-ajax-film.JPG",
+    "link": "projet-ajax-film/index.html",
+    "skill": ["Vanilla JS", "Manipulation du DOM", "Appel JSON avec Fletch()", "API "],
+    "modif": "2019-04-18"
+  },
+  {
+    "id": "exercice-ajax",
+    "title": "JS - FLETCH()",
+    "img": "http://formation.xavier-loup.fr/assets/images/capture-ajax.jpg",
+    "link": "projet-ajax/index.html",
+    "skill": ["Vanilla JS", "Manipulation du DOM", "Appel JSON avec Fletch()"],
+    "modif": "2019-04-17"
+  },
+  {
+    "id": "function-js",
+    "title": "Exercice Fonctions JS",
+    "img": "http://formation.xavier-loup.fr/assets/images/capture-fonction.PNG",
+    "link": "projet-js-function/exo_functions.html",
+    "skill": ["Algorithmie", "Vanilla Javascript", "POO", "Modif du DOM"],
+    "modif": "2019-04-08"
+  },
+  {
+    "id": "filtrage-js",
+    "title": "Exercice Filtrage JS",
+    "img": "",
+    "link": "projet-js-filtrage/exo-filtrage.html",
+    "skill": ["Algorithmie", "Vanilla Javascript"],
+    "modif": "2019-04-05"
+  },
+  {
+    "id": "cv",
+    "title": "Exercice CV",
+    "img": "http://formation.xavier-loup.fr/assets/images/capture-cv.PNG",
+    "link": "projet-cv/index.html",
+    "skill": ["HTML5", "CSS3", "Vanilla Javascript", "FTP"],
+    "modif": "2019-02-10"
+  },
+  {
+    "id": "exercice-blog",
+    "title": "Blog",
+    "img": "http://formation.xavier-loup.fr/assets/images/blog-screen.PNG",
+    "link": "projet-blog/index.html",
+    "skill": ["HTML5", "CSS3/SCSS", "Librairie JQuery"],
+    "modif": "2019-02-15"
+  },
+  {
+    "id": "wordpress",
+    "title": "Wordpress",
+    "img": "http://formation.xavier-loup.fr/assets/images/wordpress1.png",
+    "link": "",
+    "skill": ["Découverte Wordpress coté Clients"],
+    "modif": "2019-03-17"
+  },
+
+  {
+    "id": "personnage-js",
+    "title": "Exercice Personnages",
+    "img": "",
+    "link": "",
+    "skill": ["Vanilla Javascript", "POO"],
+    "modif": "2019-04-01"
+  },
+  {
+    "id": "ecran-de-veille-js",
+    "title": "Ecran de veille",
+    "img": "http://formation.xavier-loup.fr/assets/images/baloo.PNG",
+    "link": "projet-js-ecran-de-veille/tp-js.html",
+    "skill": ["Algorithmie", "Vanilla Javascript", "Typescript"],
+    "modif": "2019-03-15"
+  },
+  {
+    "id": "portail",
+    "title": "Portail Portfolio",
+    "img": "http://formation.xavier-loup.fr/assets/images/capture-portail.PNG",
+    "link": "",
+    "skill": ["Bootstrap", "Vanilla Javascript"],
+    "modif": "2019-04-12"
+  },
+  {
+    "id": "reflexo",
+    "title": "Site Web en Production",
+    "img": "http://formation.xavier-loup.fr/assets/images/reflexo.PNG",
+    "link": "https://www.reflexologie-gaillac.fr/",
+    "skill": ["HTML5", "CSS3/Flexbox", "Responsive Design", "PHP", "Mise en Production sur OVH", "Mise en place de Google Analytics", "Recherche d'amélioration SEO"],
+    "modif": "2019-02-03"
+  },
+  {
+    "id": "xav",
+    "title": "Site Web CV en Production",
+    "img": "http://formation.xavier-loup.fr/assets/images/capture-xav.PNG",
+    "link": "https://www.xavier-loup.fr/",
+    "skill": ["HTML5", "CSS3/Flexbox", "Responsive Design", "PHP", "Mise en Production sur OVH"],
+    "modif": "2019-04-04"
+  }
+]

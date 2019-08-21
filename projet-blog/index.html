@@ -1,0 +1,431 @@
+<!-- <!DOCTYPE html> -->
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="app.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="stellarnav/css/stellarnav.css">
+  <link rel="stylesheet" type="text/css" media="all" href="stellarnav/css/stellarperso.css">
+
+  <link rel="stylesheet" href="vendor/back-to-top-master/css/style.css"> <!-- Resource style -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+
+  <link rel="shortcut icon" type="../asset/images/x-icon" href="image/wolficon.png" />
+
+  <title>Wolf News</title>
+
+</head>
+
+<body>
+
+  <header id="header">
+    <div class='header-top'>
+    </div>
+    <div class="headerlogo">
+      <img src="../asset/images/wolfocre.png" alt="un dessin de loup, logo du blog" />
+    </div>
+
+    <div class="headertext">
+      <p class="headertitle">Wolf News</p>
+      <p class="headersubtitle">XL-édition</p>
+    </div>
+  </header>
+
+  <div class="stellarnav">
+    <ul>
+      <li><a href="">Dropdown</a>
+        <ul>
+          <li><a href="#">How deep?</a>
+            <ul>
+              <li><a href="#">Deep</a>
+                <ul>
+                  <li><a href="#">Even deeper</a>
+                    <ul>
+                      <li><a href="#">Item</a></li>
+                      <li><a href="#">Item</a></li>
+                      <li><a href="#">Item</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Item</a>
+            <ul>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Item</a>
+            <ul>
+              <li><a href="#">Deeper</a>
+                <ul>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Here's a very long item.</a>
+            <ul>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li><a href="">Item 2</a></li>
+      <li><a href="">Item 3</a></li>
+      <li><a href="">Item 4</a></li>
+      <li><a href="">Item 5</a></li>
+      <li><a href="">Item 6</a></li>
+      <li class="drop-left"><a href="">Drop Left</a>
+        <ul>
+          <li><a href="#">How deep?</a>
+            <ul>
+              <li><a href="#">Deep</a>
+                <ul>
+                  <li><a href="#">Even deeper</a>
+                    <ul>
+                      <li><a href="#">Item</a></li>
+                      <li><a href="#">Item</a></li>
+                      <li><a href="#">Item</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Item</a></li>
+          <li><a href="#">Item</a></li>
+          <li><a href="#">Item</a></li>
+          <li><a href="#">Item</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div><!-- .stellarnav -->
+
+  <!-- required -->
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script type="text/javascript" src="stellarnav/js/stellarnav.min.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      jQuery('.stellarnav').stellarNav({
+        theme: 'dark',
+        sticky: false,
+        breakpoint: 960,
+        position: 'right',
+        phoneBtn: '18009997788',
+        locationBtn: 'https://www.google.com/maps'
+        /*
+            jQuery('.stellarnav').stellarNav({
+
+  sticky: false, // makes nav sticky on scroll (desktop only)
+  position: 'static', // 'static', 'top', 'left', 'right' - when set to 'top', this forces the mobile nav to be placed absolutely on the very top of page
+  openingSpeed: 250, // how fast the dropdown should open in milliseconds
+  closingDelay: 250, // controls how long the dropdowns stay open for in milliseconds
+  showArrows: true, // shows dropdown arrows next to the items that have sub menus
+  phoneBtn: '', // adds a click-to-call phone link to the top of menu - i.e.: "18009084500"
+  phoneLabel: 'Call Us', // label for the phone button
+  locationBtn: '', // adds a location link to the top of menu - i.e.: "/location/", "http://site.com/contact-us/"
+  locationLabel: 'Location', // label for the location button
+  closeBtn: false, // adds a close button to the end of nav
+  closeLabel: 'Close', // label for the close button
+  mobileMode: false,
+  scrollbarFix: false // fixes horizontal scrollbar issue on very long navs
+});
+
+            */
+      });
+    });
+  </script>
+  <!-- required -->
+
+
+  <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+
+  <div class='content'>
+
+    <div class="widget">
+
+      <div class="widget_style">
+        <h3>RECHERCHE</h3>
+        <form id="search" action="http://cda2019.webboy.fr/send_form_data_post.php" method="POST">
+          <input type="search" />
+          <button type="submit" form="search"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+
+      <div class="widget_style">
+        <h3>A LA UNE</h3>
+        <div class="widget_une">
+          <h4>TITRE</h4>
+          <img src="../asset/images/bitcoin.jpg" alt="photo d'une pièce de bitcoin" />
+        </div>
+        <div class="widget_une">
+          <h4>TITRE</h4>
+          <img src="../asset/images/guerre.jpg" alt="photo de soldats de l'armée aux combat" />
+        </div>
+      </div>
+
+      <div class="widget_style">
+        <img class="pub" src="../asset/images/trolls.png" alt="Publicité, hummmm!" />
+      </div>
+      <div class="widget_style">
+
+        <iframe src="https://www.youtube.com/embed/njzeJXHv2EA?rel=0&amp;autoplay=1&mute=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+    </div>
+
+    <article>
+
+      <div class="style_article" id="style_article_1">
+
+        <div class='style_h2'>
+          <h2>GROS TITRE</h2>
+        </div>
+
+        <div class="style_text">
+
+          <img src="../asset/images/graff.jpg" alt="photo de batiments peints par street art" />
+
+          <p>Ibi victu recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrium adventu cohortium, quae casu propinquabant, nec resistere planitie porrecta conati digressi sunt retroque concedentes omne iuventutis robur relictum
+            in sedibus acciverunt.
+            Hanc regionem praestitutis celebritati diebus invadere parans dux ante edictus per solitudines Aboraeque amnis herbidas ripas, suorum indicio proditus, qui admissi flagitii metu exagitati ad praesidia descivere Romana. absque ullo
+            egressus effectu deinde tabescebat immobilis.Inter quos Paulus eminebat notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret
+            ausos conspirasse Magnentio, cum reniti non possent, iussa licentius supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam
+            obterens manicis, crimina scilicet multa consarcinando a veritate longe discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna.Hanc regionem praestitutis celebritati diebus invadere parans dux ante
+            edictus per solitudines Aboraeque amnis herbidas ripas, suorum indicio proditus, qui admissi flagitii metu exagitati ad praesidia descivere Romana. absque ullo egressus effectu deinde tabescebat immobilis.Inter quos Paulus eminebat
+            notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret ausos conspirasse Magnentio, cum reniti non possent, iussa licentius
+            supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet multa consarcinando a veritate longe
+            discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna.</p>
+          <div class="position">
+            <a href="article01.html">lien vers l'article</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="style_article" id="style_article_2">
+
+        <div class='style_h2'>
+          <h2>GROS TITRE</h2>
+        </div>
+
+        <div class="style_text">
+
+          <img src="../asset/images/berlue.png" alt="photo berlue" />
+
+          <p>Inter quos Paulus eminebat notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret ausos conspirasse Magnentio, cum reniti non
+            possent, iussa licentius supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet multa
+            consarcinando a veritate longe discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna.Ibi victu recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrium adventu cohortium, quae
+            casu propinquabant, nec resistere planitie porrecta conati digressi sunt retroque concedentes omne iuventutis robur relictum in sedibus acciverunt.
+          </p>
+
+          <div class="position">
+
+            <a href="article01.html">lien vers l'article</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="style_article" id="style_article_3">
+
+        <div class='style_h2'>
+          <h2>GROS TITRE</h2>
+        </div>
+
+        <div class="style_text">
+
+          <img src="../asset/images/pierre.jpg" alt="" />
+
+          <p>Inter quos Paulus eminebat notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret ausos conspirasse Magnentio, cum reniti non
+            possent, iussa licentius supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet multa
+            consarcinando a veritate longe discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna.Ibi victu recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrium adventu cohortium, quae
+            casu propinquabant, nec resistere planitie porrecta conati digressi sunt retroque concedentes omne iuventutis robur relictum in sedibus acciverunt.
+
+            Hanc regionem praestitutis celebritati diebus invadere parans dux ante edictus per solitudines Aboraeque amnis herbidas ripas, suorum indicio proditus, qui admissi flagitii metu exagitati ad praesidia descivere Romana. absque ullo
+            egressus effectu deinde tabescebat immobilis.</p>
+
+          <div class="position">
+            <a href="article01.html">lien vers l'article</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="style_article" id="style_article_4">
+
+        <div class='style_h2'>
+          <h2>GROS TITRE</h2>
+        </div>
+
+        <div class="style_text">
+
+          <img src="../asset/images/et.jpg" alt="" />
+
+          <p>Ibi victu recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrium adventu cohortium, quae casu propinquabant, nec resistere planitie porrecta conati digressi sunt retroque concedentes omne iuventutis robur relictum
+            in sedibus acciverunt.
+            Hanc regionem praestitutis celebritati diebus invadere parans dux ante edictus per solitudines Aboraeque amnis herbidas ripas, suorum indicio proditus, qui admissi flagitii metu exagitati ad praesidia descivere Romana. absque ullo
+            egressus effectu deinde tabescebat immobilis.Inter quos Paulus eminebat notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret
+            ausos conspirasse Magnentio, cum reniti non possent, iussa licentius supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam
+            obterens manicis, crimina scilicet multa consarcinando a veritate longe discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna.Hanc regionem praestitutis celebritati diebus invadere parans dux ante
+            edictus per solitudines Aboraeque amnis herbidas ripas, suorum indicio proditus, qui admissi flagitii metu exagitati ad praesidia descivere Romana. absque ullo egressus effectu deinde tabescebat immobilis.Inter quos Paulus eminebat
+            notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret ausos conspirasse Magnentio, cum reniti non possent, iussa licentius
+            supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet multa consarcinando a veritate longe
+            discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna.</p>
+          <div class="position">
+            <a href="article01.html">lien vers l'article</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="style_article" id="style_article_5">
+
+        <div class='style_h2'>
+          <h2>GROS TITRE</h2>
+        </div>
+
+        <div class="style_text">
+
+          <img src="../asset/images/alf.jpg" alt="" />
+
+          <p>Ibi victu recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrium adventu cohortium, quae casu propinquabant, nec resistere planitie porrecta conati digressi sunt retroque concedentes omne iuventutis robur relictum
+            in sedibus acciverunt.
+            Hanc regionem praestitutis celebritati diebus invadere parans dux ante edictus per solitudines Aboraeque amnis herbidas ripas, suorum indicio proditus, qui admissi flagitii metu exagitati ad praesidia descivere Romana. absque ullo
+            egressus effectu deinde tabescebat immobilis.Inter quos Paulus eminebat notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret
+            ausos conspirasse Magnentio, cum reniti non possent, iussa licentius supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam
+            obterens manicis, crimina scilicet multa consarcinando a veritate longe discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna.Hanc regionem praestitutis celebritati diebus invadere parans dux ante
+            edictus per solitudines Aboraeque amnis herbidas ripas, suorum indicio proditus, qui admissi flagitii metu exagitati ad praesidia descivere Romana. absque ullo egressus effectu deinde tabescebat immobilis.Inter quos Paulus eminebat
+            notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret ausos conspirasse Magnentio, cum reniti non possent, iussa licentius
+            supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet multa consarcinando a veritate longe
+            discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna.</p>
+          <div class="position">
+            <a href="article01.html">lien vers l'article</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </article>
+  </div>
+
+
+
+  <div class="contactline">
+
+    <div class="widthcenter">
+      <div class="linklogo">
+        <a href="mailto:louloi@gmil.cm" target="_blank"><i class="far fa-envelope"></i></a>
+
+        <a href="https://www.linkedin.com/in/xavier-loup/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+        <a href="https://github.com/Hellix-gaillac" target="_blank"><i class="fab fa-github-square"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+
+    <div class="contactlink">
+      <table>
+        <tr>
+          <td class="celllink1"><i class="fas fa-envelope"></i></td>
+          <td class="celllink2"><a href="mailto:12999@gmal.com" title="mail-contact">cont@xavier-loup.fr</a></td>
+        </tr>
+        <tr>
+          <td class="celllink1"><br /></td>
+          <td class="celllink2"><br /></td>
+        </tr>
+        <tr>
+          <td class="celllink1"><i class="fas fa-mobile-alt"></i></td>
+          <td class="celllink2"><a href="tel:" title="phone-contact">06 12 34 56 78</a></td>
+        </tr>
+        <tr>
+          <td class="celllink1"><br /></td>
+          <td class="celllink2"><br /></td>
+        </tr>
+        <tr>
+          <td class="celllink1"><i class="fas fa-map-marker-alt"></i></td>
+          <td class="celllink2"><a href="https://goo.gl/maps/kyY1e1mpVwK2" target="_blank">La Louvière</br>81600 GAILLAC</a></td>
+        </tr>
+        <tr>
+          <td class="celllink1"><br /></td>
+          <td class="celllink2" <br />
+          </td>
+        </tr>
+
+      </table>
+
+    </div>
+    <div class="formcontact">
+      <form action="http://cda2019.webboy.fr/send_form_data_post.php" method="POST">
+
+        <input type="text" name="name" placeholder="Votre Prénom et NOM..." />
+
+        <input type="email" name="email" placeholder="Votre adresse mail ..." />
+
+        <textarea type="text" name="text" placeholder="Votre message ..."></textarea>
+        <button value="Submit">Envoyer <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+
+    <div class="blocklink">
+      <div class="link">
+        <ul>
+          <li><a href="https://www.apformation.com/" target="_blank">AP Formation</a></li>
+          <li><a href="">lien</a></li>
+          <li><a href="">lien</a></li>
+          <li><a href="" target="_blank">Mentions légales</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  <div class='backtotop'>
+    <a href="#0" class="cd-top js-cd-top">Top</a>
+    <script src="vendor/back-to-top-master/js/main.js"></script> <!-- Resource JavaScript -->
+  </div>
+
+</body>
+
+</html>

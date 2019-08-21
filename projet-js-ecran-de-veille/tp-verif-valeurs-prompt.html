@@ -1,0 +1,41 @@
+while (carrePositionX != null && carrePositionY != null) {
+
+}
+//test valeur saisi ==number ;
+while (isNaN(carrePositionX) == true || isNaN(carrePositionY) == true) {
+if (isNaN(carrePositionX) == false) {
+carrePositionX = prompt(`saisir un nombre en CHIFFRE compris entre ${MIN} et ${MAX} pour la valeur de la position bottom de depart`);
+} else {
+return true;
+}
+if (isNaN(carrePositionY) == false) {
+carrePositionY = prompt(`saisir un nombre en CHIFFRE compris entre ${MIN} et ${MAX} valeur de la position left de depart`); //changement variable par utilisateur
+} else {
+return true;
+}
+}
+while (carrePositionX < MIN && carrePositionX> MAX || carrePositionY < MIN && carrePositionY> MAX) {
+    if (carrePositionX < MIN || carrePositionX> MAX) {
+      carrePositionX = prompt(`saisir un nombre compris entre ${MIN} et ${MAX} pour la valeur de la position bottom de depart`);
+      } else if (carrePositionY < MIN || carrePositionY> MAX) {
+        carrePositionY = prompt(`saisir un nombre compris entre ${MIN} et ${MAX} valeur de la position left de depart`); //changement variable par utilisateur
+        }
+        }
+
+
+        //etape 1: supprimer
+
+
+        // carrePositionX = prompt(`saisir valeur de la position bottom de depart`); //changement variable par utilisateur
+        // carrePositionY = prompt(`saisir valeur de la position left de depart`); //changement variable par utilisateur
+        // Number(carrePositionX);
+        // Number(carrePositionY);
+        //
+        // idCarreSelector.style.bottom = carrePositionX + 'px'; //changement style position
+        // idCarreSelector.style.left = carrePositionY + 'px'; //changement style position
+        //
+        // // fonction parametre carrePosition entre max and min
+        // checkValue(carrePositionX);
+        // console.log(`x entre min et max: ` + checkValue(carrePositionX));
+        // checkValue(carrePositionY);
+        // console.log(`y entre min et max: ` + checkValue(carrePositionY));

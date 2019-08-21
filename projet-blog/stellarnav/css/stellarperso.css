@@ -1,0 +1,4 @@
+.stellarnav { z-index: 9999; }
+.stellarnav.dark { background: rgba(	181, 84, 0, 1); }
+.stellarnav.dark ul ul { background: rgba(	181, 84, 0, 1); }
+.stellarnav.mobile.dark ul { background: rgba(	181, 84, 0, 1); }

@@ -1,0 +1,312 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  list-style-type: none;
+}
+a:visited{
+  color: inherit;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+body{
+	width:100%;
+	background-color:#eeeeee;
+}
+/*-----------------HEADER-----------------*/
+header{
+	width:85%;
+	margin-left:15%;
+  font-weight:400;
+	font-family: 'Righteous', cursive;
+	text-align:center;
+  letter-spacing: 3px;
+	color:#eeeeee;
+	background-color:#b55400;
+
+
+}
+
+header h1{
+	width:100%;
+	font-size:55px;
+	line-height:100px;
+}
+
+header h2{
+	font-size:30px;
+	line-height:50px;
+
+}
+
+header h4{
+	font-size:25px;
+	line-height:50px;
+}
+
+
+
+
+
+/*---------------lineright--------------*/
+.lineright{
+	width:1%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	overflow-x: hidden;
+	background-color: #393e46;
+}
+
+/*-----------------MENU-----------------*/
+menu{
+	width:15%;
+	height: 100%;
+	padding-top: 10px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	font-family: 'Righteous', cursive;
+	color:#eeeeee;
+	background-color: #393e46;
+}
+
+/*------------------block navigation du menu---------*/
+menu img{
+	width:40%;
+	margin:10px 30%;
+}
+menu nav{
+	display:block;
+	width:80%;
+	margin:10px 10% 50px 10%;
+	text-align:center;
+	font-size:20px;
+}
+
+menu nav ul li{
+	display:block;
+	width:100%;
+}
+
+menu nav ul li a{
+	display:block;
+	margin:5px 0;
+	padding:10px 0;
+	transition:0.7s;
+	border-radius:10px;
+	color:#eeeeee;
+
+}
+menu nav ul li a:hover{
+	border-radius:10px;
+	background-color:#b55400;
+}
+menu nav ul li a .lasta{
+	padding:10px 0;
+
+}
+/*-------------block contact du menu--------------*/
+menu .blocklink{
+	width:80%;
+	margin:10px 10%;
+	padding:10px 0;
+	font-size:13px;
+	border-radius:10px;
+	background-color:#b55400;
+}
+
+menu .blocklink table{
+	width:100%;
+}
+menu .blocklink table .cell1{
+	width:40px;
+	height:35px;
+	text-align:center;
+
+}
+menu .blocklink table .cell2 a{
+	color:#eeeeee;
+
+}
+
+menu .blocklink table .cell2 a:hover{
+	color:#1a3263;
+	text-decoration:underline;
+}
+/*-----------------CONTENT-----------------*/
+.main{
+	width:80%;
+	margin-left:15%;
+	padding:30px;
+	font-size:20px;
+	font-family: 'Fahkwang', sans-serif;
+	color: #393e46;
+}
+.main h3{
+	margin:30px 10%;
+	padding:20px;
+	font-size:35px;
+	border-radius:10px;
+	color:#eeeeee;
+	background-color:#b55400;
+}
+.main2{
+	width:80%;
+	margin-left:15%;
+	padding:30px;
+	font-size:20px;
+	font-family: 'Fahkwang', sans-serif;
+	color:#1a3263;
+}
+.main2 h3{
+	width:100%;
+	margin:30px 10%;
+	padding:20px;
+	font-size:35px;
+	border-radius:10px;
+	color:#eeeeee;
+	background-color:#b55400;
+}
+
+.main2 .content2{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin:0 auto;
+	width:90%;
+	border-radius:10px;
+	background-color:#393e46;
+
+}
+.main2 .content2 .etiquette{
+
+	width:150px;
+	height:150px;
+	margin:10px 10%;
+	padding:10px 0;
+	text-align: center;
+	border-radius:10px;
+	background-color:#b55400;
+}
+.main2 .content2 .etiquette:hover{
+	background-color: #eeeeee;
+}
+.main2 .content2 .etiquette img{
+	width:130px;
+	height:100px;
+	margin:10px;
+	border:2px solid #eeeeee;
+}
+.main2 .content2 .etiquette p .photo {
+	width:100px;
+	height:100px;
+	margin-bottom:10px;
+}
+.main2 .content2 .etiquette p .cvsite {
+	margin-top:5px;
+
+	font-size:25px;
+
+}
+
+/*-----------------FORM----------------------*/
+
+#form form{
+	width:60%;
+	margin:20px auto;
+	padding:30px;
+	border-radius:10px;
+  color: #eeeeee;
+	background-color:#b55400;
+}
+#form form p{
+	margin-bottom:20px;
+}
+#form form input{
+	width:100%;
+	height:30px;
+	margin:20px auto;
+	border-radius:10px;
+}
+#form form textarea{
+	width:100%;
+	height:200px;
+	margin:20px auto;
+	resize:none;
+	border-radius:10px;
+}
+
+#form form button{
+  width: 150px;
+  margin: 0 auto;
+  padding-left: 10px;
+  line-height: 40px;
+  font-size: 18px;
+	color: #eeeeee;
+	border-radius: 10px;
+	background-color: #393e46;
+}
+#form form button i{
+  padding-right: 10px;
+
+}
+
+/*-----------------FOOTER-----------------*/
+footer{
+	width:85%;
+	height:200px;
+	margin-left:15%;
+	padding:30px;
+	font-family: 'Righteous', cursive;
+	font-size:20px;
+	color:#1A3263;
+	background-color:#b55400;
+}
+footer .photofooter{
+	float:right;
+	width:100px;
+	margin:10px 100px;
+}
+footer .footerbox{
+	width:400px;
+	margin:0 auto;
+}
+footer .footerbox .linkfooter{
+	padding:30px;
+	line-height:30px;
+	text-align:center;
+}
+footer .footerbox .contactfooter{
+	display:flex;
+	justify-content: space-around;
+	width:300px;
+	margin:0 auto;
+	font-size:30px;
+}
+footer .footerbox .linkfooter a{
+	color:#eeeeee;
+}
+footer .footerbox .linkfooter a:hover{
+	color:#393e46;
+	text-decoration:underline;
+
+}
+
+footer .footerbox .contactfooter i{
+	color:#eeeeee;
+
+}
+footer .footerbox .contactfooter i:hover{
+	color:#393e46;
+
+}

@@ -1,0 +1,82 @@
+<html>
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
+<head>
+  <style>
+    .image img {
+      max-width: 100px;
+    }
+
+    .image img:hover {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <table id="liste_villes" border="1">
+    <caption>Liste des villes de france</caption>
+    <tbody>
+      <tr>
+        <th>Nom</th>
+        <th>Nombre d'habitants</th>
+        <th>Emplacement géographique</th>
+        <th>Spécialité culinaire</th>
+        <th>Image</th>
+        <th>Devise</th>
+      </tr>
+      <tr id="Toulouse">
+        <td class="ville">Toulouse</td>
+        <td class="habitants">466297</td>
+        <td class="geo">sud-ouest</td>
+        <td class="specialite">Le cassoulet</td>
+        <td class="image"><img src="http://formation.webboy.fr/images/toulouse.jpg" /></td>
+        <td><button class="display_devise" data-ville="Toulouse">Afficher la devise</button></td>
+      </tr>
+      <tr id="Bordeaux">
+        <td class="ville">Bordeaux</td>
+        <td class="habitants">246586</td>
+        <td class="geo">ouest</td>
+        <td class="specialite">Le vin</td>
+        <td class="image"><img src="http://formation.webboy.fr/images/bordeaux.jpg" /></td>
+        <td><button class="display_devise" data-ville="Bordeaux">Afficher la devise</button></td>
+      </tr>
+      <tr id="Paris">
+        <td class="ville">Paris</td>
+        <td class="habitants">2200000</td>
+        <td class="geo">centre nord</td>
+        <td class="specialite">Le jambon beurre</td>
+        <td class="image"><img src="http://formation.webboy.fr/images/paris.jpg" /></td>
+        <td><button class="display_devise" data-ville="Paris">Afficher la devise</button></td>
+      </tr>
+      <tr id="Marseille">
+        <td class="ville">Marseille</td>
+        <td class="habitants">1059000</td>
+        <td class="geo">sud-ouest</td>
+        <td class="specialite">La bouillabaisse</td>
+        <td class="image"><img src="http://formation.webboy.fr/images/marseille.jpg" /></td>
+        <td><button class="display_devise" data-ville="Marseille">Afficher la devise</button></td>
+      </tr>
+      <tr id="Lyon">
+        <td class="ville">Lyon</td>
+        <td class="habitants">500715</td>
+        <td class="geo">sud est</td>
+        <td class="specialite">La quenelle</td>
+        <td class="image"><img src="http://formation.webboy.fr/images/lyon.jpg" /></td>
+        <td><button class="display_devise" data-ville="Lyon">Afficher la devise</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script type="text/javascript">
+    $('.ville').css('color', 'red');
+    $('.specialite').css('background-color', 'green');
+    // $("th").toggle();
+    $("#Toulouse.specialite").toggle(1000);
+  </script>
+</body>
+
+</html>

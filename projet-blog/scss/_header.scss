@@ -1,0 +1,67 @@
+@font-face{
+  font-family: 'DoubleFeature20';
+  src: url(DoubleFeature20.ttf);
+}
+body{
+  background-color: $theme-background-color;
+
+  margin: 0 auto;
+  font-family: $font-family-content;
+  font-weight: $font-weight-content;
+  text-align: $text-center;
+
+  header{
+
+    @include mixflex;
+    width:100%;
+    min-height: 300px;
+    font-weight: $font-weight-title;
+    background-image: url(../image/foret.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .header-top{
+      height: 58px;
+      background-color: $header-theme-bg-color;
+    }
+
+    .headerlogo{
+      margin: auto;
+      box-sizing: border-box;
+      img{
+        width:100px;
+      }
+    }
+    .headertext{
+      width:70%;
+      margin:auto;
+      padding: auto;
+      letter-spacing: 20px;
+      text-align: $text-center;
+      color: $color-font-light;
+      background-color: rgba(22, 24, 27, 0.6);
+      .headertitle{
+        font-size: $font-size-title;
+        font-weight: $font-weight-title;
+        font-family: $font-family-title;
+        letter-spacing: 20px;
+      }
+      .headersubtitle{
+        font-size: $font-size-s;
+        font-family: $font-size-sutitle;
+        letter-spacing: 10px;
+      }
+    }
+  }
+  .navbar{
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: $nav-theme-color;
+  }
+  .content{
+    @include mixflex;
+    width:90%;
+    margin: 0 auto;
+    padding:20px;
+  }
+}

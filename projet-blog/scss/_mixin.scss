@@ -1,0 +1,22 @@
+
+
+  /*-------------DIV TEST view-----------*/
+@mixin test{
+  border:1px solid #000;
+}
+
+@mixin body-rules{
+  background-color: #eeeeee;
+}
+
+@mixin border-ochre{
+  border: 2px solid $nav-theme-color;
+}
+
+@mixin center{
+  width:90%;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>TITLE</title>
+		<meta name="description" content="description" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<script type="text/javascript" src="script.js"></script>
+
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+		<link rel="stylesheet" href="app.min.css" type="text/css"/>
+		<link rel="stylesheet" href="style-bootstrap.css" type="text/css"/>
+
+
+	</head>
+
+	<body>
+
+		<div class="alert alert-success" role="alert">
+		  <h4 class="alert-heading">Titre Alerte</h4>
+		  <p>Vous venez de réaliser une alerte avec un style et un agencement un peu plus complexe que l'alerte simple.</p>
+		  <hr>
+		  <p class="mb-0">Avec des infos plus précises et plus complètes.</p>
+		</div>
+
+		<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		  <strong>Salut !</strong> Certaines fonctionnalités dynamiques peuvent être incorporées directement via du HTML/CSS. Vous pouvez fermer cette alerte.
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    <span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+
+
+		<div class="alert alert-success ml-10 mr-20" role="alert">
+		  Texte affiché dans un bloc d'alerte de type "success" (donc vert)
+		</div>
+
+		<button type="button" class="btn btn-primary ml-5 mb-10">Primary</button>
+		<button type="button" class="btn btn-secondary ">Secondary</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-info">Info</button>
+		<button type="button" class="btn btn-light">Light</button>
+		<button type="button" class="btn btn-dark">Dark</button>
+
+		<button type="button" class="btn btn-link">Link</button>
+
+		<div class="alert alert-warning" role="alert">
+		  <h4 class="alert-heading">Titre Alerte</h4>
+		  <p>Vous venez de réaliser une alerte avec une classe warning (donc jaune)</p>
+		  <hr>
+		  <p class="mb-0">Avec des infos plus précises et plus complètes.</p>
+		</div>
+
+		<div class="alert alert-danger alert-dismissible fade show" role="alert">
+		  <strong>Salut !</strong> Vous venez de réaliser une alerte avec une classe danger (donc rouge)
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    <span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+
+
+
+
+
+	<div class="container">
+	    <div class="bd-example">
+	      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	        <ol class="carousel-indicators">
+	          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+	          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+	          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+	        </ol>
+	        <div class="carousel-inner">
+	          <div class="carousel-item active">
+	            <img src="image/berlue.png" class="d-block w-100" alt="...">
+	            <div class="carousel-caption d-none d-md-block">
+	              <h5>Bordeaux</h5>
+	              <p>La ville du vin et des dunes du Pyla !</p>
+	            </div>
+	          </div>
+	          <div class="carousel-item">
+	            <img src="image/bitcoin.jpg" class="d-block w-100" alt="...">
+	            <div class="carousel-caption d-none d-md-block">
+	              <h5>Bite coin</h5>
+	              <p>La ville de la luxure</p>
+	            </div>
+	          </div>
+	          <div class="carousel-item">
+	            <img src="image/pierre.jpg" class="d-block w-100" alt="...">
+	            <div class="carousel-caption d-none d-md-block">
+	              <h5>Peyro Clabado</h5>
+	              <p>La ville du granit</p>
+	            </div>
+	          </div>
+	        </div>
+	        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+	         <span class="carousel-control-prev-icon icon-color" aria-hidden="true" style="background-color:#00dd00;"></span>
+	         <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="carousel-control-next " href="#carouselExampleCaptions" role="button" data-slide="next">
+	         <span class="carousel-control-next-icon icon-color" aria-hidden="true" style="background-color:#00dd00;"></span>
+	         <span class="sr-only">Next</span>
+	        </a>
+	      </div>
+	    </div>
+	  </div>
+
+		<div class="container-fluid">
+			 <div class="container">
+			   <div class="row">
+			     <div class="col-10">
+			      <h1>Ceci est un titre</h1>
+			     </div>
+			   </div>
+			 </div>
+
+		</div>
+
+		<div class="box02 container-fluid row align-items-center">
+
+			<div class="box020">
+				<ul class="border border-dark rounded-top p-5">
+					<li><a href="#" title="Accueil" class="">Accueil</a></li>
+					<li><a href="#" title="page1" class="">page1</a></li>
+					<li><a href="#" title="page2" class="">page2</a></li>
+					<li><a href="#" title="page3" class="">page3</a></li>
+					<li><a href="#" title="Contact" class="">Contact</a></li>
+				</ul>
+			</div>
+
+
+			<div class="box020 align-self-center col-12 col-md-3 col-lg-5">
+			 <h1>Ceci est un titre</h1>
+
+			<table class="table table-striped table-dark">
+				<tr>
+					<th scope="col">departement</th>
+					<th scope="col">prefecture</th>
+					<th scope="col">couleur</th>
+					<th scope="col">meteo</th>
+					<th scope="col">alimentation</th>
+					<th scope="col">industrie</th>
+				</tr>
+				<tr>
+					<td scope="row">tarn</td>
+					<td>albi</td>
+					<td>rouge</td>
+					<td>soleil</td>
+					<td>bonne</td>
+					<td>casse cailloux</td>
+				</tr>
+				<tr>
+					<td scope="row">ariege</td>
+					<td>foix</td>
+					<td>marron</td>
+					<td>humide</td>
+					<td>charcuterie</td>
+					<td>pole emploi</td>
+				</tr>
+				<tr scope="row">
+					<td>aveyron</td>
+					<td>rodez</td>
+					<td>gris</td>
+					<td>grêle</td>
+					<td>aligot</td>
+					<td>agriculture</td>
+				</tr>
+				<tr scope="row">
+					<td>haute garonne</td>
+					<td>toulouse</td>
+					<td>rose</td>
+					<td>polué</td>
+					<td>cassoulet</td>
+					<td>avion</td>
+				</tr>
+			</table>
+			</div>
+			<div class="box020 align-self-center col-12 col-md-5 col-lg-3">
+				<img src="image/berlue.png" class="img-thumbnail"></div>
+			<div class="box020 align-self-center col-12 col-md-5 col-lg-3">4</div>
+		</div>
+
+		<!-------------------------------------------------------------------->
+															TEST price
+		<!-------------------------------------------------------------------->
+	<div class="price-etiquette">
+
+		<div class="">
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+
+		<!-------------------------------------------------------------------->
+													TEST CV BOOTSTRAP
+<!-------------------------------------------------------------------->
+		<div class="box30">
+			<header class="container-fluid">
+				<div class="container row">
+
+
+		      <div class='logohead col-3'>
+		        <img src='' alt='logo de Xavier LOUP'></img>
+		      </div>
+
+					<div class="col-8">
+						<h2>Xavier LOUP</h2>
+	 		      <h1>Etudiant Concepteur d'Application Web/>Mobile</h1>
+					</div>
+
+				</div>
+
+	    </header>
+	    <div class='menu'>
+	      <nav>
+	        <ul>
+	          <li><a href='#presentation'>Pésentation</a></li>
+	          <li><a href='#competences'>Compétences</a></li></li>
+	          <li><a href='#realisations'>Réalisations</a></li>
+	          <li><a href='#experiences'>Expériences</a></li>
+	          <li><a href='#interets'>Intérêts</a></li>
+	          <li><a href='#contact'>Contact</a></li>
+	        </ul>
+	      </nav>
+
+	      <div class='menu-contact'>
+	        <div class="blocklink">
+						<table>
+							<tr>
+								<td class="cell1"><i class="fas fa-mobile-alt"></i></td>
+								<td class="cell2"><a href="tel:+33652335250">+33(0)6 52 33 52 50</td>
+							</tr>
+							<tr>
+								<td class="cell1"><i class="far fa-envelope"></i></td>
+								<td class="cell2"><a href="mailto:loup.xav@gmail.com">loup.xav@gmail.com</a></td>
+							</tr>
+							<tr>
+								<td class="cell1"><i class="fab fa-linkedin"></i></td>
+								<td class="cell2"><a href="www.linkedin.com/in/xavier-loup-gaillac" target="_blank">Profil Linkedin</a></td>
+							</tr>
+							<tr>
+								<td class="cell1"><i class="fas fa-map-marker-alt"></i></td>
+								<td rowspan="3" class="cell2a">9174 chemin Toulze <br /> Le Castellou <br /> 81600 GAILLAC</td>
+							</tr>
+
+						</table>
+					</div>
+	        <a href='' download=''>Télécharger mon CV.</a>
+	      </div>
+	    </div>
+			  <main>
+		      <section id='presentation'>
+		        <h3>Présentation</h3>
+		        <img src='' alt=''></img>
+		        <p>
+		          Coactique aliquotiens nostri pedites ad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
+
+		          Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.
+		        </p>
+		      </section>
+
+		      <section id='competences'>
+		        <h3>Compétences</h3>
+		          <div class='box'>
+		            <h4>HTML.5/>CSS.3</h4>
+
+		          </div>
+		          <div class='box'>
+		            <h4>Javascript</h4>
+
+		          </div>
+		          <div class='box'>
+		            <h4>Php</h4>
+
+		          </div>
+		          <div class='box'>
+		            <h4>Java SE</h4>
+
+		          </div>
+		          <div class='box'>
+		            <h4>Stage</h4>
+
+		          </div>
+		          <div class='box'>
+		            <h4>Transverce</h4>
+
+		          </div>
+		      </section>
+
+		      <section id='realisations'>
+		        <h3>Réalistations</h3>
+
+		        <article class='site'>
+		          <h4>Site Personnel</h4>
+		          <img src='' alt=''></img>
+
+		          <p>Site web débuté en stage post-formation.Il est en production et en amélioration continue.
+		          </p>
+
+		          <ul>
+		            <li>- HTML5/CSS3.</li>
+		            <li>- Responsive Design.</li>
+		            <li>- Traitement formulaire en php.</li>
+		            <li>- Hebergement.</li>
+		            <li>- .htaccess pour redirection Https et réécriture d'URL.</li>
+		            <li>- SEO - indexation et recherche d'amélioration du référencement.</li>
+		            <li>- Mise en place des outils Google Marketing Platform.</li>
+		          </ul>
+
+		        </article>
+
+		        <article class='site'>
+		          <h4>CV-site perso pendant la formation.</h4>
+		          <img src='' alt=''></img>
+
+		          <p>Site web débuté pendant la formation. Il est en production et en amélioration continue.
+		          </p>
+
+		          <ul>
+		            <li>- HTML5/CSS3 - Sass.</li>
+		            <li>- Responsive Design.</li>
+		            <li>- Utilisation de JS avec jQuery.</li>
+		            <li>- Traitement formulaire en php.</li>
+		            <li>- Hebergement.</li>
+		            <li>- SEO - indexation et recherche d'amélioration du référencement.</li>
+		            <li>- Mise en place des outils Google Marketing Platform.</li>
+		          </ul>
+
+		        </article>
+
+		        <article class='site'>
+		          <h4>Travaux en formation</h4>
+		          <img src='' alt=''></img>
+		          <img src='' alt=''></img>
+		          <img src='' alt=''></img>
+
+		          <ul>
+		            <li>- HTML5/CSS3 - Sass.</li>
+		            <li>- Positionnement Float / Position / Flexbox / Grid Layout </li>
+		            <li>- Responsive Design.</li>
+		            <li>- Utilisation de bibliothèques (jQuery) et frameworks (Bootstrap).</li>
+		            <li>- T</li>
+		            <li>- H</li>
+		            <li>- S</li>
+		            <li>- M</li>
+		          </ul>
+
+
+		        </article>
+		      </section>
+
+		      <section id='experiences'>
+		        <h3>Expériences</h3>
+
+		        <div id='temoin'>
+
+		          <h4>Recommandations</h4>
+		          <article class='sticker'>
+		            <img src='' alt''></img>
+		            <p>chez</p>
+		            <p><a href=''>site</a></p>
+		            <p>message</p>
+		            <p class='sign'></p>
+		          </article>
+
+		          <article class='sticker'>
+		            <img src='' alt''></img>
+		            <p>chez</p>
+		            <p><a href=''>site</a></p>
+		            <p>message</p>
+		            <p class='sign'></p>
+		          </article>
+
+		          <article class='sticker'>
+		            <img src='' alt''></img>
+		            <p>chez</p>
+		            <p><a href=''>site</a></p>
+		            <p>message</p>
+		            <p class='sign'></p>
+		          </article>
+
+		          <article class='sticker'>
+		            <img src='' alt''></img>
+		            <p>chez</p>
+		            <p><a href=''>site</a></p>
+		            <p>message</p>
+		            <p class='sign'></p>
+		          </article>
+
+		          <article class='sticker'>
+		            <img src='' alt''></img>
+		            <p>chez</p>
+		            <p><a href=''>site</a></p>
+		            <p>message</p>
+		            <p class='sign'></p>
+		          </article>
+
+		        </div>
+		      </section>
+
+		      <section id='interets'>
+		        <h3>Intérêts</h3>
+
+		        <article class='inter'>
+		          <h5></h5>
+		          <img src='' alt='logo tech'></img>
+		        </article>
+
+		        <article class='inter'>
+		          <h5></h5>
+		          <img src='' alt='logo Nature'></img>
+		        </article>
+
+		        <article class='inter'>
+		          <h5></h5>
+		          <img src='' alt='logo Cuisine'></img>
+		        </article>
+
+		        <article class='inter'>
+		          <h5></h5>
+		          <img src='' alt='logo Famille'></img>
+		        </article>
+
+
+		      </section>
+
+		      <section id='contact'>
+		        <h3>Contact</h3>
+		        <form action="" method="POST">
+
+		          <label for='name'>Votre Prénom et NOM : </label>
+		          <select for="genre" name="genre"required>
+		            <option selected>...</option>
+		            <option value="madame">Madame</option>
+		            <option value="monsieur">Monsieur</option>
+		          </select>
+		          <input type="text" name="name" placeholder="..."/>
+
+		          <label for='email'>Votre adresse mail : </label>
+		          <input type="email" name="email" placeholder=" ..."/>
+
+		          <label for='text'>Votre message : </label>
+		          <textarea type="text" name="text" placeholder=" ..."></textarea>
+		          <button value="Submit" >Envoyer <i class="fas fa-paper-plane"></i></button>
+		        </form>
+
+		      </section>
+
+		    </main>
+
+		    <footer class="container-fluid">
+
+		      <div class="contactline">
+		        <a href="mailto:loup.xav@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+		        <a href="https://www.linkedin.com/in/xavier-loup/" target="_blank"><i class="fab fa-linkedin"></i>
+		        <a href="https://github.com/Hellix-gaillac" target="_blank"><i class="fab fa-github-square"></i></a>
+		      </div>
+		      <div class='blockfooter'>
+		        <img src='' alt='logo de Xavier LOUP'></img>
+
+		        <div id='logo'>
+		          <img src=''></img>
+		        </div>
+
+		        <div id='coordonee'>
+							<table>
+
+								<tr>
+									<td class="celllink1"><i class="fas fa-mobile-alt"></i></td>
+									<td class="celllink2"><a href="tel:+33652335250" title="phone-contact">06 52 33 52 50</a></td>
+								</tr>
+								<tr>
+									<td class="celllink1"><br/></td>
+									<td class="celllink2"><br/></td>
+								</tr>
+
+								<tr>
+									<td class="celllink1"><i class="fas fa-map-marker-alt"></i></td>
+									<td class="celllink2"><a href="https://goo.gl/maps/kyY1e1mpVwK2" target="_blank">La Louvière</br>81600 GAILLAC</a></td>
+								</tr>
+
+								<tr>
+									<td class="celllink1"><br/></td>
+									<td class="celllink2"<br/></td>
+								</tr>
+
+		            <tr>
+									<td class="celllink1"><i class="fas fa-map-marked-alt"></i></td>
+									<td class="celllink2">Zone de recherche d'emploi : <br />- 30km autour de Gaillac, <br />- Axe Albi/Toulouse,<br />- Toulouse centre.</a></td>
+								</tr>
+
+							</table>
+
+		        </div>
+
+		        <div id='link'>
+		          <ul>
+		            <li><a href="https://www.apformation.com/" target="_blank">- AP Formation</a></li>
+		            <li><a href="">- Page de test</a></li>
+		            <li><a href="">- lien</a></li>
+		            <li><a href="" target="_blank">- Mentions légales</a></li>
+		          </ul>
+
+		        </div>
+		      </div>
+
+		    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		<div class="box04">D</div>
+		<div class="box05">E</div>
+		<div class="box06">F</div>
+
+
+
+
+
+
+
+		<div class="wrapper">
+<!--------------------------------------------HEADER------------------------------------------------------->
+			<div class="header">
+				<div class="widthcenter">
+
+					<div class="headerlogo">
+  			     <img src="image" alt="logo">
+					</div>
+
+					<div class="headertext">
+						<h2 class="headertitle">TITLE</h2>
+						<h2 class="headersubtitle">adress<br /><a href="tel:">phone</a></h2>
+					</div>
+
+				</div>
+			</div>
+
+<!--------------------------------------------MENU------------------------------------------------------->
+			<nav>
+
+					<ul>
+						<li class="currentpage"><a href="/index.php" title="Accueil">Accueil</a></li>
+						<li><a href="page1" title="page1">page1</a></li>
+						<li><a href="page2" title="page2">page2</a></li>
+						<li><a href="page3" title="page3">page3</a></li>
+						<li><a href="/contact.php" title="Contact">Contact</a></li>
+					</ul>
+
+			</nav>
+
+<!--------------------------------------------TITLE------------------------------------------------------->
+			<h1>TITLE</h1>
+
+<!--------------------------------------------CONTENT------------------------------------------------------->
+			<div class="contents">
+
+				<div class="widthcenter">
+					<p><img src="image"  class="image" alt="image"/></p>
+					<p> Bonne visite!</p>
+				</div>
+
+			</div>
+
+<!--------------------------------------------BOTTOM------------------------------------------------------->
+			<div class="gradientfooter">
+
+			</div>
+
+			<div class="map">
+				<iframe src="https://www.google.com/maps" width="100%" height="265.7" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+
+			<div class="contactline">
+				<h3>Sur rendez-vous : <a href="mailto:moi@gaillac.fr" title="mail-contact" title="mail-contact">contact@gaillac.fr</a>  -  <a href="tel:" title="phone-contact">phone</a>  -  <a href="fcb"><i class="fab fa-facebook-square" ></i></a></h3>
+			</div>
+
+<!--------------------------------------------FOOTER------------------------------------------------------->
+			<div class="footer">
+				<div class="widthcenter">
+
+					<div class="footerlogo">
+						<img src="image" style="color:green" alt="image">
+					</div>
+
+					<div class="blocklink">
+
+						<div class="link">
+							<ul>
+								<li><a href="/contact.php">- Nous contacter</a></li>
+								<li><a href="link"target="_blank">- link</a></li>
+								<li><a href="link"target="_blank">- link</a></li>
+								<li><a href="link"target="_blank">- link</a></li>
+							</ul>
+						</div>
+
+						<div class="linklogo">
+							<a href="link"target="_blank" title="link-facebook"><i class="fab fa-facebook-square" ></i></a>
+							<i class="fab fa-twitter"target="_blank"></i>
+							<i class="fab fa-instagram"target="_blank"></i>
+						</div>
+
+					</div>
+
+					<div class="footercontents">
+							<p>J</p>
+							<p class="signature">LOUP</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+</html>

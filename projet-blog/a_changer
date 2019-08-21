@@ -1,0 +1,64 @@
+
+nommage des classes et id article. Refait moi des trucs plus explicites. Et tu n'as pas besoin des id dans ce cas la.
+
+12:08
+contact line : il me semble qu'il y a beaucoup de div imbriquées... sinon c'est bon. Juste une info, ne mets jamais de mail dans ton code HTML (c'est pour les robots)
+
+12:09
+footer contact : pas de table, et mets moi une balise address
+
+12:11
+pour la liste de lien (footer), ne mets pas les tirets en dur, redéfini tes règles css pour utiliser le composant natif.
+
+12:12
+OPTIMISTION : ok pas mal. Oublies pas l'image de la pub que tu n'as pas retraité
+
+12:13
+SCSS :
+oublie pas de me mettre des paramètres (avec des valeurs par défaut) dans tes mixins.
+
+12:15
+.wrappeur{
+max-width: 1400px;
+
+Ca, ça mérite une variable.
+
+12:16
+border-top:58px solid $header-theme-backgound-color;
+
+Bien essayé, mais c'est un peu capilotracté comme technique
+
+12:17
+.navbar{
+width: 100%;
+height:58px;
+
+Ok pour dépanner, mais ça ne doit pas rester.
+
+12:18
+essaye de pas donner de width en pourcentage a tes éléments "finaux" (h1, form, input, etc). Eux tu les laisses en 100% normalement, et c'est tes blocs structurant que tu vas dimensionner. Après tu joues juste sur les margin/padding.
+
+12:20
+h2{
+width:400px;
+
+non. Au pire tu utilises un display:inline-block
+
+12:21
+.contactlink{
+width:25%;
+min-width:150px;
+margin:0 20px;
+padding:20px 0;
+
+capilotracté
+
+12:23
+margin: 12px 18%;
+
+des pixels et des % ? pas top
+
+12:23
+Responsive : a faire
+
+12:24
